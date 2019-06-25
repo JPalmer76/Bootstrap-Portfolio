@@ -4,16 +4,25 @@
 
 body {
   padding-top: 20px;
-  background: #000000;
+  background: #0B0B10;
+}
+
+.card-link {
+  color: #202833;
 }
 
 
   .nav {
-    background-color: lightcoral;
+    background-color: #202833;
     line-height: 33px;
     margin-right:10px;
+    color: #F7CACB;
+   
   }
 
+  a {
+    color: #F1F1F1;
+  }
   .card {
     margin-left: 5px;
     margin-right: -4px;
@@ -21,15 +30,15 @@ body {
 
 
 .media-body {
-  color: #777;
+  color: #66FCF1;
 }
 
 p {
-  color: #777;
+  color: #C5C6C8  ; 
 }
 
 h1 {
-  background-color: #ddd;
+  background-color:  #66FCF1; 
   padding-left: 20px;
   
 }
@@ -42,7 +51,7 @@ h1 {
 }
 
 #contact-form {
-  color: #777;
+  color: #DBDBDB;
   background-color: #ddd;
   padding-right: 40px;
 }
