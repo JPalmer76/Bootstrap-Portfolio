@@ -3,8 +3,29 @@
 }
 
 body {
+
   padding-top: 20px;
   background: #0B0B10;
+}
+
+#image {
+  background-image: url(./Images/background-blur-blurred-949587.jpg);
+}
+
+#port {
+  background-image: url(./Images/art-background-blur-586744.jpg);
+}
+
+#about {
+  background-image: url(./Images/attractive-backdrop-background-988872.jpg);
+}
+
+.container1 {
+  margin-top: 40px;
+}
+
+.container3 {
+  margin-top: 60px;
 }
 
 .card-link {
@@ -20,6 +41,10 @@ body {
    
   }
 
+  #words {
+    color: rgb(230, 13, 23);
+  }
+
   a {
     color: #F1F1F1;
   }
@@ -30,15 +55,16 @@ body {
 
 
 .media-body {
-  color: #66FCF1;
+  color: #C5C6C8;
 }
 
 p {
-  color: #C5C6C8  ; 
+  color: rgb(18, 22, 29)  ; 
 }
 
 h1 {
-  background-color:  #66FCF1; 
+  background-color: #202833;
+  color: #C5C6C8;
   padding-left: 20px;
   
 }
@@ -81,10 +107,14 @@ textarea {
   height: 200px;
 }
 
-input[type="submit"] {
+
+
+#input {
   padding: 10px 30px;
+  margin-left: 40px;
+  margin-bottom: 15px;
   font-size: 18px;
-  color: #ffffff;
+  color: #a86b6b;
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
@@ -101,12 +131,16 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #3D3ED4;
   height: 50px;
+}
+.mt-0 {
+  color: #3D3ED4;
 }
 
 h3,
 h2 {
+  color: #F1F1F1;
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
