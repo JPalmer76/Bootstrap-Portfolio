@@ -8,16 +8,32 @@ body {
   background: #0B0B10;
 }
 
+.text {
+  font-size: 20px;
+}
+
+#word {
+  margin-left: -15px;
+}
+
 #image {
   background-image: url(./Images/background-blur-blurred-949587.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #port {
   background-image: url(./Images/art-background-blur-586744.jpg);
+  margin-top: 40px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #about {
   background-image: url(./Images/attractive-backdrop-background-988872.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 25px;
 }
 
 .container1 {
@@ -42,11 +58,14 @@ body {
   }
 
   #words {
-    color: rgb(230, 13, 23);
+    color: rgb(247, 239, 247);
+    font-size: 18px;
+    font-weight: 600;
   }
 
   a {
     color: #F1F1F1;
+    margin-top: 10px;
   }
   .card {
     margin-left: 5px;
@@ -138,7 +157,18 @@ footer {
   color: #3D3ED4;
 }
 
-h3,
+h3 {
+  color: #F1F1F1;
+}
+
+.title {
+  font-size: 25px;
+  color: #F1F1F1;
+}
+
+#contact-card {
+  color: #F1F1F1;
+}
 h2 {
   color: #F1F1F1;
   padding-bottom: 20px;
