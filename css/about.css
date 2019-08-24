@@ -1,0 +1,8 @@
+body {
+    background-image: linear-gradient(to bottom right, darkgray, lightgray);
+}
+
+h1, p {
+    margin-left: 60px;
+    margin-right: 60px;
+}
